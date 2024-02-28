@@ -37,9 +37,7 @@ https://github.com/NullTale/AsciiFx.git
 Render feature contains a few global parameters</br>
 to control default settings and animation noise resolution</br>
 
-
-
-![image](https://github.com/NullTale/AsciiFx/assets/1497430/d4b5d687-0664-449d-bd55-1fb83c1c2025)
+<img src="https://github.com/NullTale/AsciiFx/assets/1497430/d4b5d687-0664-449d-bd55-1fb83c1c2025" width="450"><br>
 
 ## Volume settings:
 * Ascii color - signs color multiplyer interpolated by alpha beetween originial image color and defined in settings
@@ -52,6 +50,6 @@ to control default settings and animation noise resolution</br>
 
 > One of the volumes from PackageManager Samples
 
-![image](https://github.com/NullTale/AsciiFx/assets/1497430/ab1c0fad-065c-4936-bbcc-aea7ff9122ea)
+<img src="https://github.com/NullTale/AsciiFx/assets/1497430/ab1c0fad-065c-4936-bbcc-aea7ff9122ea" width="770"><br>
 
 
