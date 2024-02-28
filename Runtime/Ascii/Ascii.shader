@@ -93,7 +93,7 @@ Shader "Hidden/VolFx/Ascii"
                 float3 lutColor = tex2D(tex, uv).rgb;
                 
 #if !defined(UNITY_COLORSPACE_GAMMA)
-                lutColor = float4(GetSRGBToLinear(lutColor.xyz), lutColor.w);
+                lutColor = GetSRGBToLinear(lutColor.xyz);
 #endif
 
                 return lutColor;
