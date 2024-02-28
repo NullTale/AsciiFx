@@ -12,5 +12,12 @@
   "dependencies": {
     "com.unity.render-pipelines.universal": "14.0.6"
   },
+  "samples": [
+        {
+            "displayName": "Samples",
+            "description": "Sample scene vis various volume settings and configured UrpAsset",
+            "path": "Samples~"
+        }
+  ],
   "hideInEditor": false
 }
