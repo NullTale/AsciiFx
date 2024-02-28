@@ -163,7 +163,7 @@ namespace VolFx
             }
         }
 
-        protected override bool _editorValidate => _gradient == null || _palette.Value == null;
+        protected override bool _editorValidate => _gradient == null || (_palette != null && _palette.Value == null);
         protected override void _editorSetup(string folder, string asset)
         {
 #if UNITY_EDITOR
