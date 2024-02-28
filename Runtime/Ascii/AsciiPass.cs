@@ -27,7 +27,7 @@ namespace VolFx
         [Tooltip("Default sign texture")]
         public Texture2D _gradient;
         [Tooltip("Default palette texture")]
-        public Optional<Texture2D> _palette;
+        public Optional<Texture2D> _palette = new Optional<Texture2D>(null, false);
         [Range(1, 7)]
         [Tooltip("Height of the animated gradient in signs(triggered by screen noise)")]
         public  int      _depth = 1;
