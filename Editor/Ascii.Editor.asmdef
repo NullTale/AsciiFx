@@ -1,0 +1,24 @@
+{
+    "name": "Ascii.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:26d22eb588a19c54187b906c9461bfef"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "www.nulltale.volfx",
+            "expression": "1",
+            "define": "VOL_FX"
+        }
+    ],
+    "noEngineReferences": false
+}
