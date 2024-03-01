@@ -9,12 +9,14 @@ or a custom pass fo selective post processing [VolFx](https://github.com/NullTal
 
 ![_cover](https://github.com/NullTale/AsciiFx/assets/1497430/6f75fa3a-1772-47c0-a12a-ca2cf6fba22c)
 
+
 ## Features
 * Animated signs
 * Smooth interpolation
 * Variable background and signs colorization
 * Custom palettes
 
+![_cover](https://github.com/NullTale/AsciiFx/assets/1497430/78fb6997-3ff1-40c0-bc32-866280090e61)
 
 ## Part of Artwork Project
 * [Vhs](https://github.com/NullTale/VhsFx)
