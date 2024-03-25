@@ -5,10 +5,10 @@ using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-//  Dither © NullTale - https://twitter.com/NullTale/
+//  AsciiFx © NullTale - https://twitter.com/NullTale/
 namespace VolFx.Editor
 {
-    [CustomPropertyDrawer(typeof(VolFx.Pass), true)]
+    [CustomPropertyDrawer(typeof(VolFxProc.Pass), true)]
     public class PassDrawer : PropertyDrawer
     {
         // =======================================================================

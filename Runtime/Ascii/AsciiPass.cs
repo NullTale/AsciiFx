@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -8,7 +9,7 @@ using Random = UnityEngine.Random;
 namespace VolFx
 {
     [ShaderName("Hidden/VolFx/Ascii")]
-    public class AsciiPass : VolFx.Pass
+    public class AsciiPass : VolFxProc.Pass
     {
         private static readonly int s_GradData   = Shader.PropertyToID("_GradData");
         private static readonly int s_GradTex    = Shader.PropertyToID("_GradTex");
@@ -167,11 +168,13 @@ namespace VolFx
         protected override void _editorSetup(string folder, string asset)
         {
 #if UNITY_EDITOR
+            var sep = Path.DirectorySeparatorChar;
+            
             if (_gradient == null)
-                _gradient = UnityEditor.AssetDatabase.LoadAssetAtPath<Texture2D>($"{folder}\\Data\\Gradient\\gradient-a-1.png");
+                _gradient = UnityEditor.AssetDatabase.LoadAssetAtPath<Texture2D>($"{folder}{sep}Data{sep}Gradient{sep}ascii-gradient-a-1.png");
             
             if (_palette.Value == null)
-                _palette.Value = UnityEditor.AssetDatabase.LoadAssetAtPath<Texture2D>($"{folder}\\Data\\Palette\\one-bit-bw-1x.png");
+                _palette.Value = UnityEditor.AssetDatabase.LoadAssetAtPath<Texture2D>($"{folder}{sep}Data{sep}Palette{sep}ascii-one-bit-bw-1x.png");
 #endif
         }
         // =======================================================================

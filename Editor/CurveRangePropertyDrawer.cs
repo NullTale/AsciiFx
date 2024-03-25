@@ -3,7 +3,7 @@
 using UnityEditor;
 using UnityEngine;
 
-//  Pixelation © NullTale - https://twitter.com/NullTale/
+//  AsciiFx © NullTale - https://twitter.com/NullTale/
 namespace VolFx.Editor
 {
     [CustomPropertyDrawer(typeof(CurveRangeAttribute))]
