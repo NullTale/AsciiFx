@@ -3,9 +3,8 @@
 [![Discord](https://img.shields.io/badge/Discord-Discord?logo=discord&color=white)](https://discord.gg/CkdQvtA5un)
 [![Boosty](https://img.shields.io/badge/Support-Boosty?logo=boosty&color=white)](https://boosty.to/nulltale)
 
-Variable Ascii effect for Unity Urp </br>
-Controlled via volume profile, works as render feature </br>
-or a custom pass fo selective post processing [VolFx](https://github.com/NullTale/VolFx)
+Variable Ascii effect for Unity Urp, controlled via volume profile </br>
+Works as render feature or a pass for selective post processing [VolFx](https://github.com/NullTale/VolFx)
 
 ![_cover](https://github.com/NullTale/AsciiFx/assets/1497430/6f75fa3a-1772-47c0-a12a-ca2cf6fba22c)
 
@@ -19,6 +18,7 @@ or a custom pass fo selective post processing [VolFx](https://github.com/NullTal
 ![_cover](https://github.com/NullTale/AsciiFx/assets/1497430/78fb6997-3ff1-40c0-bc32-866280090e61)
 
 ## Part of Artwork Project
+
 * [Vhs](https://github.com/NullTale/VhsFx)
 * [OldMovie](https://github.com/NullTale/OldMovieFx)
 * [GradientMap](https://github.com/NullTale/GradientMapFilter)
@@ -26,6 +26,7 @@ or a custom pass fo selective post processing [VolFx](https://github.com/NullTal
 * [ImageFlow](https://github.com/NullTale/FlowFx)
 * [Pixelation](https://github.com/NullTale/PixelationFx)
 * [Ascii]
+* [Dither](https://github.com/NullTale/DitherFx)
 * ...
 
 ## Usage
