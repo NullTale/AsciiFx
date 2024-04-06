@@ -6,8 +6,7 @@
 Variable Ascii effect for Unity Urp, controlled via volume profile </br>
 Works as render feature or a pass for selective post processing [VolFx](https://github.com/NullTale/VolFx)
 
-![_cover](https://github.com/NullTale/AsciiFx/assets/1497430/6f75fa3a-1772-47c0-a12a-ca2cf6fba22c)
-
+![_cover](https://github.com/NullTale/AsciiFx/assets/1497430/c1eec0da-d88d-4aaf-af3d-9dc33b5d9f57)
 
 ## Features
 * Animated signs
@@ -15,7 +14,8 @@ Works as render feature or a pass for selective post processing [VolFx](https://
 * Variable background and signs colorization
 * Custom palettes
 
-![_cover](https://github.com/NullTale/AsciiFx/assets/1497430/78fb6997-3ff1-40c0-bc32-866280090e61)
+![_cover](https://github.com/NullTale/AsciiFx/assets/1497430/78fb6997-3ff1-40c0-bc32-866280090e61)<br>
+![_cover](https://github.com/NullTale/AsciiFx/assets/1497430/6f75fa3a-1772-47c0-a12a-ca2cf6fba22c)<br>
 
 ## Part of Artwork Project
 
