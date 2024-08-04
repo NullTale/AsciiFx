@@ -7,10 +7,10 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-//  AsciiFx © NullTale - https://twitter.com/NullTale/
+//  AsciiFx © NullTale - https://x.com/NullTale
 namespace VolFx
 {
-    public static class VolFxProc
+    public static class VolFx
     {
         [Serializable]
         public abstract class Pass : ScriptableObject

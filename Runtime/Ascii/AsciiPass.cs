@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 namespace VolFx
 {
     [ShaderName("Hidden/VolFx/Ascii")]
-    public class AsciiPass : VolFxProc.Pass
+    public class AsciiPass : VolFx.Pass
     {
         private static readonly int s_GradData   = Shader.PropertyToID("_GradData");
         private static readonly int s_GradTex    = Shader.PropertyToID("_GradTex");
